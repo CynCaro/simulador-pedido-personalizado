@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pastel de Chocolate",
+        "precio": 750,
+        "descripcion": "Delicioso pastel de chocolate con decoraciones minimalistas.",
+        "imagen": "https://plus.unsplash.com/premium_photo-1663840344827-ee2d5d5cafb6?q=80&w=3087"
+    },
+    {
+        "id": 2,
+        "nombre": "Pastel de Frutas",
+        "precio": 820,
+        "descripcion": "Pastel cubierto con frutas frescas de temporada.",
+        "imagen": "https://plus.unsplash.com/premium_photo-1729971717545-de3ce11ed283?q=80&w=3087"
+    },
+    {
+        "id": 3,
+        "nombre": "Pastel Clásico de Fresa",
+        "precio": 700,
+        "descripcion": "Pastel suave con fresas frescas y crema batida.",
+        "imagen": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?q=80&w=2574"
+    },
+    {
+        "id": 4,
+        "nombre": "Pastel Red Velvet",
+        "precio": 880,
+        "descripcion": "Suave y cremoso pastel Red Velvet con betún de queso crema.",
+        "imagen": "https://images.unsplash.com/photo-1503485838016-53579610c389?q=80&w=3270"
+    },
+    {
+        "id": 5,
+        "nombre": "Galletas de Chocolate",
+        "precio": 250,
+        "descripcion": "Galletas crujientes con chispas de chocolate.",
+        "imagen": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=2678"
+    },
+    {
+        "id": 6,
+        "nombre": "Galletas de Avena",
+        "precio": 200,
+        "descripcion": "Galletas suaves de avena con un toque de canela.",
+        "imagen": "https://images.unsplash.com/photo-1590080875897-b7b65b2f73d7?q=80&w=3261"
+    },
+    {
+        "id": 7,
+        "nombre": "Galletas Rellenas",
+        "precio": 300,
+        "descripcion": "Galletas rellenas de crema de vainilla y cubiertas con chocolate.",
+        "imagen": "https://plus.unsplash.com/premium_photo-1675435646465-a6fcb77b21a6?q=80&w=3087"
+    },
+    {
+        "id": 8,
+        "nombre": "Postre de Limón",
+        "precio": 450,
+        "descripcion": "Postre cremoso de limón con base de galleta.",
+        "imagen": "https://images.unsplash.com/photo-1511911063855-2bf39afa5b2e?q=80&w=3087"
+    },
+    {
+        "id": 9,
+        "nombre": "Postre de Frambuesa",
+        "precio": 490,
+        "descripcion": "Suave postre de frambuesa con cobertura de chocolate blanco.",
+        "imagen": "https://images.unsplash.com/photo-1558326567-98ae2405596b?q=80&w=3159"
+    },
+    {
+        "id": 10,
+        "nombre": "Cheesecake de Zarzamora",
+        "precio": 850,
+        "descripcion": "Clásico cheesecake con cobertura de zarzamoras frescas.",
+        "imagen": "https://images.unsplash.com/photo-1501014882647-fa3cef30d47d?q=80&w=2372"
+    },
+    {
+        "id": 11,
+        "nombre": "Brownie de Chocolate",
+        "precio": 380,
+        "descripcion": "Brownie con chispas de chocolate y nueces.",
+        "imagen": "https://images.unsplash.com/photo-1567517757338-47d461bb1dd1?q=80&w=3270"
+    },
+    {
+        "id": 12,
+        "nombre": "Tarta de Frutas",
+        "precio": 650,
+        "descripcion": "Tarta fresca con frutas de temporada y base crujiente.",
+        "imagen": "https://images.unsplash.com/photo-1534353875273-b5887cc1abf5?q=80&w=2304"
+    }
+]

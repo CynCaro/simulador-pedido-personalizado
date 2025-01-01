@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Pedido Personalizado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/190/190411.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Simulador de Compra de Repostería</h1>
+    <p>Selecciona tus postres favoritos, elige tamaño, decoración y arma tu pedido personalizado.</p>
+
+    <!-- Sección de Productos -->
+    <section id="productosContainer">
+        <h2>Productos Disponibles</h2>
+    </section>
+
+    <!-- Resumen del Pedido -->
+    <section id="resumenPedidos">
+        <h2>Carrito de Compras</h2>
+        <ul id="listaPedidos"></ul>
+
+        <button id="vaciarCarrito">Vaciar Carrito</button>
+
+        <p id="totalCarrito">Total: $0</p>
+
+        <button id="finalizarCompra">Finalizar Compra</button>
+    </section>
+
+    <footer>
+        <p>Creado con 💖 para tu simulador de pedidos personalizados</p>
+    </footer>
+
+    <!-- Cargar Archivos JS -->
+    <script src="js/main.js" type="module"></script>
+    <script src="js/carrito.js" type="module"></script>
+</body>
+
+</html>

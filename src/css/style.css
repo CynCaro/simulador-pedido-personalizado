@@ -1,0 +1,285 @@
+/* Aplicar la tipografía Montserrat */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado principal */
+h1 {
+    color: #2a9d8f;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+/* Párrafo principal */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    /* margin-bottom: 40px; */
+    color: #555;
+}
+
+/* Sección de productos */
+#productosContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.producto {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.producto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.producto h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #2a9d8f;
+}
+
+.producto p {
+    font-size: 1em;
+    color: #777;
+    margin: 10px 20px;
+}
+
+/* Personalización de Select */
+.producto select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: white;
+    -webkit-appearance: none;  /* Quitar estilos por defecto */
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/190/190411.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.producto select:focus {
+    border-color: #2a9d8f;
+    box-shadow: 0 0 6px rgba(42, 157, 143, 0.5);
+    outline: none;
+}
+
+/* Botón de agregar al carrito */
+.producto button {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.producto button:hover {
+    background-color: #21867a;
+}
+
+/* Resumen de pedidos */
+#resumenPedidos {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#resumenPedidos h2 {
+    text-align: center;
+    color: #2a9d8f;
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+#resumenPedidos ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resumenPedidos li {
+    margin: 15px 0;
+    padding: 20px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    color: #555;
+    transition: transform 0.2s;
+}
+
+#resumenPedidos li:hover {
+    transform: scale(1.03);
+    background: #eafaf5;
+}
+
+/* Botones de carrito */
+#vaciarCarrito, #finalizarCompra {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#vaciarCarrito {
+    background-color: #e63946;
+    color: white;
+}
+
+#vaciarCarrito:hover {
+    background-color: #d62828;
+}
+
+#finalizarCompra {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+#finalizarCompra:hover {
+    background-color: #21867a;
+}
+
+#listaPedidos li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#listaPedidos li .detalles {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+#listaPedidos li .precio {
+    font-weight: bold;
+    color: #2a9d8f;
+    font-size: 1.1em;
+    white-space: nowrap;
+}
+
+#listaPedidos li .eliminar {
+    margin-left: 20px;
+}
+
+#listaPedidos li:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alinear precio a la derecha */
+.precio {
+    font-weight: bold;
+    white-space: nowrap;  /* Evita que el precio se desplace a otra línea */
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Alinear eliminar con margen */
+.eliminar {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 0.9em;
+    margin-left: 15px;  /* Asegura separación */
+}
+
+.eliminar:hover {
+    background-color: #e60000;
+}
+
+/* +- */
+#listaPedidos li span {
+    flex: 1;
+    margin: 0 10px;  /* Añade espacio entre el texto y el botón */
+}
+
+.cantidad button {
+    border: none;
+    color: white;
+    padding: 5px 9px;
+    font-size: .75em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cantidad button:hover {
+    background-color: #21867a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Responsive para Mobile */
+@media (max-width: 768px) {
+    #productosContainer {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .producto {
+        margin: 0 auto;
+    }
+
+    #resumenPedidos {
+        width: 90%;
+    }
+
+    
+}

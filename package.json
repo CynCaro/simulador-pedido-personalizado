@@ -1,0 +1,26 @@
+{
+  "name": "customordersimulator",
+  "version": "1.0.0",
+  "description": "\"Simulador interactivo que permite armar pedidos personalizados de postres\"",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/CustomOrderSimulator.git"
+  },
+  "keywords": [
+    "postres",
+    "simulador",
+    "ecommerce",
+    "JavaScript"
+  ],
+  "author": "Cynthia Mtz.",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.15.3"
+  }
+}
